@@ -61,6 +61,7 @@ h4{
     font-size: 10rem;
     color: var(--white);
     font-family: 'Newyork';
+    font-weight: 400;
 }
 
 h5{
@@ -72,6 +73,7 @@ h6{
     font-family: 'Newyork';
     font-size: 2.2rem;
     color: var(--white);
+    font-weight: 400;
 }
 
 p{
@@ -541,17 +543,17 @@ main .wrapper{
     position: absolute;
 }
 
+.expertise .expertise-main p{
+    margin-bottom: 3rem;
+}
+
+
 .expertise .expertise-main h4{
-    font-family: 'Newyork';
-    transition: .3s ease-in-out;
+    transition: .2s ease-in-out;
 }
 
 .expertise .expertise-main h4:hover{
     color: var(--main);
-}
-
-.expertise .expertise-main p{
-    margin-bottom: 3rem;
 }
 
 .expertise .expertise-content{
@@ -561,14 +563,21 @@ main .wrapper{
     height: 100%;
 }
 
-.expertise .expertise-content img:nth-of-type(1){
-    max-width: 33rem;
+.expertise .expertise-content .img-left{
+    width: 33rem;
+    height: 45rem;
     margin-top: 30rem;
+    opacity: 1;
+    transition: .5s ease-in-out;
 }
 
-.expertise .expertise-content img:nth-of-type(2){
-    max-width: 22rem;
+.expertise .expertise-content .img-right{
+    width: 22rem;
+    height: 28rem;
+    opacity: 1;
+    transition: .5s ease-in-out;
 }
+
 
 /* ! +++++ BLOGS +++++ */
 
