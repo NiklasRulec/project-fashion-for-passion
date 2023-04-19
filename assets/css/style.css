@@ -904,7 +904,7 @@ footer .email a{
     /* ! +++++ MAIN +++++ */
 
     main .wrapper{
-        width: 100vw;
+        width: 90vw;
     }
 
     /* +++++ HERO +++++ */
@@ -991,6 +991,7 @@ footer .email a{
         max-width: 90vw;
         flex-direction: column;
         margin: 0 auto;
+        padding-top: 1rem;
     }
 
     .selected .img-bottom .img3,
