@@ -132,6 +132,7 @@ header{
     padding: 0 2vw;
     border-bottom: 1px solid var(--gray);
     position: sticky;
+    z-index: 10;
     top: 0;
     left: 0;
 }
@@ -540,10 +541,14 @@ main .wrapper{
 
 .divine{
     width: 100vw;
-    height: 70rem;
+    height: 80rem;
+}
+
+.divine .bg{
+    width: 100%;
+    height: 100%;
     background: url(../img/sparkler.gif) no-repeat center;
     background-size: cover;
-    margin-bottom: 10rem;
 }
 
 .divine .layer{
@@ -588,6 +593,8 @@ main .wrapper{
     .nominated{
         width: 100%;
         height: 70rem;
+        padding-top: 10rem;
+        margin-bottom: 10rem;
     }
 
     .nominated h4{
@@ -692,14 +699,14 @@ footer .block a{
 
 footer .block-left{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     flex-direction: column;
 }
 
 footer .block-center{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     flex-direction: column;
 }
@@ -739,13 +746,14 @@ footer .email form{
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 footer .email form input{
     background-color: var(--second);
-    width: 100%;
+    width: 90%;
     height: 4rem;
+    border: none;
     border-bottom: 1px solid var(--gray);
 }
 
