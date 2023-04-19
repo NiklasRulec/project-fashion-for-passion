@@ -481,7 +481,7 @@ main .wrapper{
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-    transition: 1s ease-in-out;
+    transition: .3s ease-in-out;
     color: white;
     font-size: 3rem;
     padding: 5rem;
